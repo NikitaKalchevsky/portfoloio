@@ -21,32 +21,33 @@
 
 </html>
 <header class="header">
-  <div class="container">
-    <div class="header__container">
-
-      <div class="header__menu">
-
-        <a href="#" class="logo">
-          <img class="logo__img" src="images/ico/logo.png" alt="логотип" width="35" height="39">
-        </a>
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a class="menu__item-link" href="#">Главная</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__item-link" href="#">Обо мне</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__item-link" href="#">Мои работы</a>
-          </li>
-        </ul>
-        <button class="burger" type="button">
-          <span class="burger__line"></span>
-          <span class="sr-only">Открыть меню</span>
-        </button>
-      </div>
-    </div>
+  <div class="container header__container">
+    <button class="header__burger-btn" id="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <a href="#" class="logo">
+      <img class="logo__img" src="images/ico/logo.png" alt="логотип" width="35" height="39">
+    </a>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__item-link" href="#">Главная</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__item-link" href="#">Обо мне</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__item-link" href="#">Мои работы</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__item-link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
   </div>
+
 </header>
 <main class="main">
   <section class="hero-content">
@@ -57,21 +58,21 @@
         <p class="hero-content__elem-text">Привет ! Я <span>Кальчевский Никита</span></p>
       </div>
       <div class="hero-content__content">
-        <div class="hero-content__imagebox">
-          <img class="hero-content__content-img" src="images/image-hero.png" alt="изображение Никиты">
+        <div class="hero-content__image-box">
+          <img class="hero-content__content-img" src="images/my_photos.png" alt="изображение Никиты">
         </div>
-        <div class="hero-content__title">
-          <p class="hero-content__desc">я начинающий FrontEnd разработчик который</p>
+        <div class="hero-content__wrap">
+          <p> начинающий FrontEnd разработчик, который</p>
           <h1 class="hero-content__text">Воплотит в реальность <br> ваши <span>фантазии...</span> </h1>
-          <p class="hero-content__desc">Я уверен мои работы Вас заинтерисуют и впечатлят</p>
+          <p>Я уверен мои работы Вас заинтерисуют и впечатлят</p>
         </div>
       </div>
 
       <div class="hero-content__bottom">
         <h2 class="hero-content__subtitle">
-          I'm FrontEnd разработчик!!!
+          I'm FrontEnd Developer!!!
         </h2>
-        <p class="hero-content__txt hero-content__desc">
+        <p>
           в настоящее время я в работаю на freelanse.
         </p>
         <h3 class="hero-content__subtitle-text hero-content__desc">
@@ -81,6 +82,7 @@
       </div>
     </div>
   </div>
+
 </section>
   <section class="works section">
   <div class="container">
